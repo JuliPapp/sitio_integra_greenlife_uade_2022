@@ -79,7 +79,7 @@ footer div p, a{
     box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
     color: #f2eceb;
 }
-#presentacion .button:hover{
+.button:hover{
     background-color: #f2eceb;
     color: #6d8d3f;
 }
