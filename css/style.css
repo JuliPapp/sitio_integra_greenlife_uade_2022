@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -10,10 +10,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-body{
+.container{
     max-width: 375px;
+}
+body{
     box-sizing: border-box;
     height: 1500px;
+    border: 1px solid red;
     background-color: #f2eceb;
     background-repeat: no-repeat;
 }
@@ -50,13 +53,15 @@ header{
 }
 footer{
     background-color: #6f1228;
-    bottom: 0;
-    left: 0;
+    height: 170px;
     width: 100%;
-    display: block;
+}
+footer div p, a{
+    color: #f2eceb;
 }
 #presentacion{
     height: 300px;
+    margin-top: 70px;
     background-image: url(/img/joven-bebiendo.png);
     background-size: 70%;
     background-repeat: no-repeat;
@@ -80,6 +85,7 @@ footer{
 }
 .seccion-megatlon{
     background-color: #6f1228;
+    margin-bottom: 10px;
     flex-direction: column;
 }
 .seccion-megatlon h2, h3{
@@ -92,16 +98,19 @@ footer{
     font-size: 45pt;
     text-transform: uppercase;
 }
-.oferta-megatlon{
+.fondo-megatlon{
     width: 100%;
     background: #6f1228 url(/img/work-out.jpeg) no-repeat bottom center;
     background-size: contain;
-    height: 250px;
+    height: 215px;
 }
-.oferta-megatlon p{
+.fondo-megatlon p{
     color: #f2eceb;
     text-align: left;
     font-size: 12pt;
+}
+.membresia{
+    margin: 0px 5px 0px 5px;
 }
 /*estilo del form*/
 .formulario-box{
@@ -116,13 +125,10 @@ input .form-campos{
     color: #1d1d1b;
 }
 .form-campos{
-    width: 330px;
+    width: 335px;
     padding: 5px 0px 5px 0px;
     border: none;
-    border-radius: 5px;
-    justify-content: stretch;
-    align-content: space-around;
-
+    text-align: start;
 }
 select{
     font-family: 'Darker Grotesque', sans-serif;
@@ -148,7 +154,7 @@ option{
 }
 .button-submit{
     font-size: 20px;
-    width: 250px;
+    width: 340px;
     background-color: #496d2e;
     color: #f3edec;
     border: none;
@@ -156,6 +162,14 @@ option{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px 8px 8px 8px;
+    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.slider{
+    background-color: #6f1228;
+    height: 250px;
+    border-radius: 12px;
+    margin-bottom: 5px;
 }
 
 /* Style the navigation menu */
@@ -164,7 +178,7 @@ option{
     position: relative;
 }
 .nav-icon{
-    justify-content: start;
+    margin: 0;
 }
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
