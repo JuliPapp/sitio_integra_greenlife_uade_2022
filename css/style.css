@@ -2,21 +2,29 @@
     margin: auto;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
     color: #1d1d1b;
+    text-align: center;
     list-style:none;
     text-decoration: none;
 }
 body{
     max-width: 375px;
     height: 1500px;
-    background: rgb(242,236,235);
-    background: linear-gradient(135deg, rgba(242,236,235,1) 0%, rgba(253,222,172,1) 100%);
+    background-color: #f2eceb;
     background-repeat: no-repeat;
 }
+.home-body{
+    background-color: rgb(242,236,235);
+    background: linear-gradient(135deg, rgba(242,236,235,1) 0%, rgba(253,222,172,1) 100%);
+}
 .content-container{
-    border: 1px solid red;
     max-width: 340px;
     margin: auto;
+}
+.destaque{
+    color: #6f1228;
 }
 .mont-medium{
     font-weight: 500;
@@ -26,11 +34,62 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.flex{
+    display: flex;
+}
 footer{
     position: fixed;
     z-index: 999;
     bottom: 0;
 }
+#presentacion{
+    height: 300px;
+    background-image: url(/img/joven-bebiendo.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-around;
+}
+#presentacion .button{
+    background-color:#6d8d3f;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 130px;
+    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
+    color: #f2eceb;
+}
+#presentacion .button:hover{
+    background-color: #f2eceb;
+    color: #6d8d3f;
+}
+.seccion-megatlon{
+    background-color: #6f1228;
+    flex-direction: column;
+}
+.seccion-megatlon h2, h3, p{
+    color: #f2eceb;
+}
+.seccion-megatlon h2{
+    font-size: 18pt;
+}
+.seccion-megatlon h3{
+    font-size: 45pt;
+    text-transform: uppercase;
+}
+.oferta-megatlon{
+    width: 100%;
+    justify-content: space-evenly;
+    background: #6f1228 url(/img/work-out.jpeg) no-repeat bottom center;
+    background-size: contain;
+    height: 200px;
+}
+.oferta-megatlon p{
+    text-align: left;
+}
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;

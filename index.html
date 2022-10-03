@@ -12,7 +12,7 @@
     <title>Inicio</title>
 </head>
 
-<body>
+<body class="home-body">
     <header>
             <nav class="topnav">
                 <a href="index.html"><img src="img/greenlife.svg" alt="logo GREENLIFE" height="15px"></a>
@@ -32,33 +32,37 @@
                 </a>
             </nav>
     </header>
-
     <main class="content-container">
-        <section>
+            <section id="presentacion" class="flex">
                 <!--acá iría la imagen desde css-->
                 <!--cambiar slogan-->
-                <h1>Inspirar y crear conciencia para llevar de forma accesible una vida más saludable.</h1>
-                <a href="proximamente.html">Sobre nosotros</a>
-        </section>
-            
-            <section>
-                <h2>Gratis</h2>
-                <p>Un mes con:</p>
-                <img src="img/logo-megatlon.svg" alt="logo Megatlon">
-                <p>O también podes elegir obtener un 25% de descuento en tu primera compra.</p>
-                <h3><strong>Dejanos tus datos para enviarte el regalo:</strong></h3>
-                <form>
-                    <label><input" type="name" name="name" placeholder="nombre:"></label>
-                    <label><input" type="date" name="date" placeholder="fecha de nacimiento:"></label>
-                    <label><input" type="email" name="email" placeholder="email:"></label>
-                    <select name="promoción" id="promoción">
-                        <option value="" selected="selected">Elegí tu beneficio:</option>
-                        <option value="mes">Mes gratis con megatlon</option>
-                        <option value="25%">Obtené un 25% de descuento</option>
-                    </select>
-                    <a href="proximamente.html">Quiero mi beneficio</a>
-                </form>
+                <h1><span class="destaque">Inspirar</span> y crear <span class="destaque">conciencia para llevar</span> de forma accesible <span class="destaque">una vida más saludable.</span></h1>
+                <a href="proximamente.html" class="button">Sobre nosotros</a>
             </section>
+            
+        <section class="seccion-megatlon flex">
+            <h2>¡Empieza el cambio hoy!</h2>
+            <h3 class="mont-medium">Gratis</h3>
+            <div class="oferta-megatlon flex">
+                <p>Un mes con:</p>
+                <img src="img/logo-megatlon.png" alt="logo Megatlon">
+            </div>
+            <p>O también podes elegir obtener un 25% de descuento en tu primera compra.</p>
+        </section>
+        <section>
+            <h3><strong>Dejanos tus datos para enviarte el regalo:</strong></h3>
+            <form>
+                <label><input" type="name" name="name" placeholder="nombre:"></label>
+                <label><input" type="date" name="date" placeholder="fecha de nacimiento:"></label>
+                <label><input" type="email" name="email" placeholder="email:"></label>
+                <select name="promoción" id="promoción">
+                    <option value="" selected="selected">Elegí tu beneficio:</option>
+                    <option value="mes">Mes gratis con megatlon</option>
+                    <option value="25%">Obtené un 25% de descuento</option>
+                </select>
+                <a href="proximamente.html">Quiero mi beneficio</a>
+            </form>
+        </section>
 
         <section>
             <!--juli revisar, tema de los sliders-->
@@ -67,7 +71,7 @@
             <article>
                 <h3>Tienda Green</h3>
                 <ul>
-                    <li><a href="proximamente.html">Skincare</a></li>
+                    <li><a href="proximamente.html" class="button">Skincare</a></li>
                     <li><a href="proximamente.html">Escencias terapéuticas</a></li>
                     <li><a href="proximamente.html">Complementos</a></li>
                 </ul> 
