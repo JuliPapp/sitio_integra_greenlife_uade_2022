@@ -38,9 +38,9 @@ body{
     display: flex;
 }
 footer{
-    position: fixed;
+    background-color: #6f1228;
+    margin: auto;
     z-index: 999;
-    bottom: 0;
 }
 #presentacion{
     height: 300px;
