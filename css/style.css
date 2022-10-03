@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -10,14 +10,16 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-body{
+.container{
     max-width: 375px;
+}
+body{
     box-sizing: border-box;
-    height: 1500px;
     background-color: #f2eceb;
     background-repeat: no-repeat;
 }
 .home-body{
+    height: 1500px;
     background-color: rgb(242,236,235);
     background: linear-gradient(135deg, rgba(242,236,235,1) 0%, rgba(253,222,172,1) 100%);
 }
@@ -53,11 +55,12 @@ footer{
     height: 250px;
     width: 100%;
 }
-footer p, a{
+footer div p, a{
     color: #f2eceb;
 }
 #presentacion{
     height: 300px;
+    margin-top: 70px;
     background-image: url(/img/joven-bebiendo.png);
     background-size: 70%;
     background-repeat: no-repeat;
@@ -67,7 +70,8 @@ footer p, a{
     flex-direction: column;
     align-content: space-around;
 }
-#presentacion .button{
+.button{
+    width: 200px;
     background-color:#6d8d3f;
     border-radius: 50px;
     padding: 15px;
@@ -75,12 +79,13 @@ footer p, a{
     box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
     color: #f2eceb;
 }
-#presentacion .button:hover{
+.button:hover{
     background-color: #f2eceb;
     color: #6d8d3f;
 }
 .seccion-megatlon{
     background-color: #6f1228;
+    margin-bottom: 10px;
     flex-direction: column;
 }
 .seccion-megatlon h2, h3{
@@ -93,16 +98,19 @@ footer p, a{
     font-size: 45pt;
     text-transform: uppercase;
 }
-.oferta-megatlon{
+.fondo-megatlon{
     width: 100%;
     background: #6f1228 url(/img/work-out.jpeg) no-repeat bottom center;
     background-size: contain;
-    height: 250px;
+    height: 215px;
 }
-.oferta-megatlon p{
+.fondo-megatlon p{
     color: #f2eceb;
     text-align: left;
     font-size: 12pt;
+}
+.membresia{
+    margin: 0px 5px 0px 5px;
 }
 /*estilo del form*/
 .formulario-box{
@@ -111,19 +119,18 @@ footer p, a{
 }
 input .form-campos{
     font-size: 16px;
+    background-color: #f2eceb;
 }
 ::placeholder{
     text-align: left;
     color: #1d1d1b;
 }
 .form-campos{
-    width: 330px;
+    width: 335px;
     padding: 5px 0px 5px 0px;
     border: none;
-    border-radius: 5px;
-    justify-content: stretch;
-    align-content: space-around;
-
+    text-align: start;
+    background-color: #f2eceb;
 }
 select{
     font-family: 'Darker Grotesque', sans-serif;
@@ -149,23 +156,34 @@ option{
 }
 .button-submit{
     font-size: 20px;
-    width: 250px;
-    background-color: #496d2e;
+    width: 340px;
+    background-color: #6d8d3f;
     color: #f3edec;
     border: none;
     border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px 8px 8px 8px;
+    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
 }
-
+.slider{
+    background-color: #6f1228;
+    height: 250px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+.construccion{
+    margin-top: 250px;
+    flex-direction: column;
+    align-content: center;
+}
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
     position: relative;
 }
 .nav-icon{
-    justify-content: start;
+    margin: 0;
 }
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {

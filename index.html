@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/Favicon.png">
     <title>GREENLIFE</title>
 </head>
 
 <body class="home-body">
     <header>
-            <nav class="topnav content-container flex">
+            <nav class="topnav container">
                 <a href="index.html" class="nav-icon"><img src="img/greenlife.svg" alt="logo GREENLIFE" height="20px"></a>
                 <div id="myLinks">
                     <ul>
@@ -33,8 +34,8 @@
             </nav>
     </header>
 
-    <main class="content-container">
-            <section id="presentacion" class="flex">
+    <main>
+            <section id="presentacion" class="content-container flex">
                 <!--acá iría la imagen desde css-->
                 <!--cambiar slogan-->
                 <h1><span class="destaque">Inspirar</span> y crear <span class="destaque">conciencia para llevar</span> de forma accesible <span class="destaque">una vida más saludable.</span></h1>
@@ -42,16 +43,16 @@
             </section>
             
         <section class="seccion-megatlon flex">
-            <h2>¡Empieza el cambio hoy!</h2>
-            <h3 class="mont-medium">Gratis</h3>
-            <div class="oferta-megatlon">
-                <div class="flex">
+            <h2 class="content-container">¡Empieza el cambio hoy!</h2>
+            <h3 class="mont-medium content-container">Gratis</h3>
+            <div class="fondo-megatlon content-container">
+                <div class="membresia content-container flex">
                     <p>Un mes de membresía con:</p>
                     <img src="img/logo-megatlon.png" alt="logo Megatlon">
                 </div>
             </div>
         </section>
-        <section>
+        <section class="content-container">
                 <p>O también podes elegir obtener un 25% de descuento en tu primera compra.</p>
                 <h3><strong>Dejanos tus datos para enviarte el regalo:</strong></h3>
                 <form class="content-container formulario-box flex">
@@ -69,9 +70,9 @@
 
         <section>
             <!--juli revisar, tema de los sliders-->
-            <h2><strong>GREENLIFE te ofrece</strong></h2>
-            
-            <article>
+            <h2><strong class="mont-medium">Te ofrecemos</strong></h2>
+            <div class="slider container"></div>
+            <!--<article>
                 <h3>Tienda Green</h3>
                 <ul>
                     <li><a href="proximamente.html" class="button">Skincare</a></li>
@@ -109,37 +110,39 @@
                 <div>
                     <img src="img/logonaturallife.png"alt="logo Natural life">
                 </div>
-            </article>
+            </article>-->
         </section>
     </main>
 
     <footer>
-        <p>© 2022 / GREENLIFE</p>
-        <nav>
-            <div>
-                <a href="proximamente.html">
-                    <img src="img/facebook.png"alt="logo Facebook">
-                </a>
-                
-                <a href="proximamente.html">
-                    <img src="img/instagram.png"alt="logo Instagram">
-                </a>
-    
-                <a href="proximamente.html">
-                    <img src="img/email.png"alt="logo Email">
-                </a>
-    
-                <a href="proximamente.html">
-                    <img src="img/youtube.png"alt="logo Youtube">
-                </a>
-            </div>
-            <ul>
-                <li><a href="proximamente.html">Política de privacidad</a></li>
-                <li><a href="proximamente.html">Términos y condiciones</a></li>
-                <li><a href="proximamente.html">Cómo comprar</a></li>
-                <li><a href="proximamente.html">Suscribite al Newsletter</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <p>© 2022 / GREENLIFE</p>
+            <nav>
+                <div>
+                    <a href="proximamente.html">
+                        <img src="img/facebook.png"alt="logo Facebook">
+                    </a>
+                    
+                    <a href="proximamente.html">
+                        <img src="img/instagram.png"alt="logo Instagram">
+                    </a>
+        
+                    <a href="proximamente.html">
+                        <img src="img/email.png"alt="logo Email">
+                    </a>
+        
+                    <a href="proximamente.html">
+                        <img src="img/youtube.png"alt="logo Youtube">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="proximamente.html">Política de privacidad</a></li>
+                    <li><a href="proximamente.html">Términos y condiciones</a></li>
+                    <li><a href="proximamente.html">Cómo comprar</a></li>
+                    <li><a href="proximamente.html">Suscribite al Newsletter</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
