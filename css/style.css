@@ -8,9 +8,11 @@
     text-align: center;
     list-style:none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body{
     max-width: 375px;
+    box-sizing: border-box;
     height: 1500px;
     background-color: #f2eceb;
     background-repeat: no-repeat;
@@ -69,7 +71,7 @@ footer{
     background-color: #6f1228;
     flex-direction: column;
 }
-.seccion-megatlon h2, h3, p{
+.seccion-megatlon h2, h3{
     color: #f2eceb;
 }
 .seccion-megatlon h2{
@@ -81,15 +83,15 @@ footer{
 }
 .oferta-megatlon{
     width: 100%;
-    justify-content: space-evenly;
     background: #6f1228 url(/img/work-out.jpeg) no-repeat bottom center;
     background-size: contain;
-    height: 200px;
+    height: 250px;
 }
 .oferta-megatlon p{
+    color: #f2eceb;
     text-align: left;
+    font-size: 12pt;
 }
-
 /*estilo del form*/
 .formulario-box{
     flex-direction: column;
