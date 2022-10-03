@@ -90,6 +90,61 @@ footer{
     text-align: left;
 }
 
+/*estilo del form*/
+.formulario-box{
+    flex-direction: column;
+    height: 300px;
+}
+input .form-campos{
+    font-size: 16px;
+}
+::placeholder{
+    text-align: left;
+    color: #1d1d1b;
+}
+.form-campos{
+    width: 330px;
+    padding: 5px 0px 5px 0px;
+    border: none;
+    border-radius: 5px;
+    justify-content: stretch;
+    align-content: space-around;
+
+}
+select{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url(/img/select.svg);
+    background-size: 8%;    
+}
+select::-ms-expand {
+    display: none; /*Evita que se muestre la flecha por defecto en versiones de IE*/
+}
+option{
+    text-align: left;
+}
+.beneficio{
+    width: 150px;
+    margin: 0 auto;
+}
+.button-submit{
+    font-size: 20px;
+    width: 250px;
+    background-color: #496d2e;
+    color: #f3edec;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 8px 8px 8px;
+}
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
