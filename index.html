@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
     <link rel="icon" type="image/x-icon" href="/img/Favicon.png">
     <title>GREENLIFE</title>
 </head>
@@ -68,10 +70,25 @@
                 </form>
         </section>
 
-        <section>
+        <section class="section">
             <!--juli revisar, tema de los sliders-->
             <h2><strong class="mont-medium">Te ofrecemos</strong></h2>
-            <div class="slider container"></div>
+            <div class="slider-container">
+                <div class="autoplay">
+                    <div class="slide">
+                        <div><img src="img/aceiteeucalipto-100.jpg" alt="f"></div>
+                    </div>
+                    <div class="slide">
+                        <div><img src="img/aceitejazmin-100.jpg" alt="f"></div>
+                    </div>
+                    <div class="slide">
+                        <div><img src="img/aceitelavanda-100.jpg" alt="f"></div>
+                    </div>
+                    <div class="slide">
+                        <div><img src="img/aceitemanzanilla-100.jpg" alt="f"></div>
+                    </div>
+                </div>
+            </div>
             <!--<article>
                 <h3>Tienda Green</h3>
                 <ul>
@@ -145,6 +162,8 @@
         </div>
     </footer>
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/main.js"></script>
 </body>

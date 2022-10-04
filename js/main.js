@@ -7,3 +7,20 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+  $(document).ready(function(){
+    $('.autoplay').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2500,
+      speed: 500,
+      arrows: false,
+      dots: true,
+      adaptiveHeight: true,
+      customPaging: function(slider, i) {
+        // this example would render "tabs" with titles
+        return '<span class="dot"></span>';
+      },
+    });
+  });
