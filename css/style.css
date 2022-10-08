@@ -8,7 +8,6 @@
     text-align: center;
     list-style:none;
     text-decoration: none;
-    box-sizing: border-box;
 }
 .container{
     max-width: 375px;
@@ -185,6 +184,7 @@ option{
 .topnav {
     overflow: hidden;
     position: relative;
+    flex-wrap: wrap;
 }
 .nav-icon{
     margin: 0;
