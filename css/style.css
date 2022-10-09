@@ -11,6 +11,23 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
+}
+.container{
+    max-width: 375px;
+}
+.c-container{
+    max-width: 340px;
+}
+.bk-gray{
+    color: #1d1d1b;
+    background-color: #F2EDEA;
+}
+.bk-maroon{
+    color: #f2eceb;
+    background-color: #6F1228;
+} 
 .titulos{
     font-size: 25px;
     font-weight: 500;
@@ -38,13 +55,24 @@
 .button-S{
     width: 150px;
     height: 36px;
+    border-radius: 100px;
     background: #6D8D3F;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
 }
 .button-M{
-
+    width: 230px;
+    height: 50px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
 }
-.button-L
+.button-L{
+    width: 350px;
+    height: 50px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
 
 /*estilo del form*/
 .formulario-box{
