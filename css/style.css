@@ -25,11 +25,8 @@ header{
     top: 0px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.07));
 }
-.nav-margin{
+main{
     margin-top: 50px;
-}
-.f{
-    display: flex;
 }
 .container{
     max-width: 375px;
@@ -37,25 +34,30 @@ header{
 .c-container{
     max-width: 340px;
 }
+.f{
+    display: flex;
+}
+/*FONDOS --------------------------------*/
 .bk-gray{
-    color: #1d1d1b;
     background-color: #F2EDEA;
 }
 .bk-maroon{
-    color: #f2eceb;
     background-color: #6F1228;
 } 
 .bk-presentacion{
-    height: 290px;
+    height: 250px;
     background-image: url(/img/joven-bebiendo.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
 }
+
+/*TEXTOS --------------------------------*/
 .titulos{
     font-size: 25px;
     font-weight: 500;
@@ -80,6 +82,14 @@ header{
     font-size: 12px;
     font-weight: 400;
 }
+span{
+    color: #6F1228;
+}
+.gray{
+    color: #F2ECEB;
+}
+
+/*BOTONES ---------------------------------*/
 .button-s{
     width: 150px;
     height: 36px;
@@ -107,6 +117,8 @@ header{
     display: block;
 }
 .button-l{
+    justify-content: center;
+    align-items: center;
     width: 350px;
     height: 50px;
     border-radius: 100px;
@@ -116,18 +128,57 @@ header{
 .button-l a{
     color: #F2ECEB;
     display: block;
-    justify-content: center;
+}
+
+.megatlon{
+    padding-bottom: 8px;
+    flex-direction: column;
+}
+.megatlon h2{
+    font-size: 19px;
+}
+.megatlon h3{
+    text-transform: uppercase;
+    font-size: 61px;
+}
+.bk-megatlon-1 p{
+    font-size: 16px;
+    text-align: left;
+}
+.bk-megatlon-1{
+    background-color: #6D8D3F;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
 }
-span{
-    color: #6F1228;
+.bk-megatlon-1 img{
+    display: block;
+    width: 195px;
 }
-/*estilo del form*/
+.bk-megatlon-2{
+    background: #6d8d3f url(/img/work-out.jpeg);
+    height: 185px;
+    background-size: contain;
+}
+.scroll{
+    height: 50px;
+    background-image: url(/img/scroll.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#form-beneficio{
+    height: 400px;
+    justify-content: space-between;
+}
+
+/*estilo del form ----------------------*/
 .formulario-box{
     flex-direction: column;
     height: 300px;
 }
-input .form-campos{
+label{
     font-size: 16px;
     background-color: #f2eceb;
 }
@@ -135,7 +186,7 @@ input .form-campos{
     text-align: left;
     color: #1d1d1b;
 }
-.form-campos{
+.formulario-box input, select{
     width: 335px;
     padding: 7px 0px 7px 0px;
     border: none;
