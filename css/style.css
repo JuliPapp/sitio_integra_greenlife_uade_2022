@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -8,126 +9,176 @@
     text-align: center;
     list-style:none;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+}
+body{
+    background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
+    background-repeat: no-repeat;
+}
+header{
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.07));
+}
+main{
+    margin-top: 50px;
 }
 .container{
     max-width: 375px;
 }
-.content-container{
+.c-container{
     max-width: 340px;
-    margin: auto;
 }
-.bkg-granada{
-    background-color: #6f1228;
-}
-.slide img{
-    border-radius: 12px;
-    max-width: 100%;
-}
-body{
-    box-sizing: border-box;
-    background-color: #f2eceb;
-    background-repeat: no-repeat;
-}
-.home-body{
-    background-color: rgb(242,236,235);
-    background: linear-gradient(135deg, rgba(242,236,235,1) 0%, rgba(253,222,172,1) 100%);
-}
-.text-slider{
-    font-size: 18pt;
-    line-height: 40px;
-    color: #f2eceb;
-}
-.destaque{
-    color: #6f1228;
-}
-.mont-medium{
-    font-weight: 500;
-}
-.din{
-    font-family: din-condensed,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.flex{
+.f{
     display: flex;
 }
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    width: 100%;
-    background-color: #f2eceb;
-    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
+/*FONDOS --------------------------------*/
+.bk-gray{
+    background-color: #F2EDEA;
 }
-footer div p, a{
-    color: #f2eceb;
-}
-#presentacion{
-    height: 300px;
-    margin-top: 70px;
+.bk-maroon{
+    background-color: #6F1228;
+} 
+.bk-presentacion{
+    height: 250px;
     background-image: url(/img/joven-bebiendo.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
-    text-align: center;
     flex-direction: column;
-    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
 }
-.button{
-    width: 200px;
-    background-color:#6d8d3f;
-    border-radius: 50px;
-    padding: 15px;
-    margin-top: 130px;
-    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
-    color: #f2eceb;
+
+/*TEXTOS --------------------------------*/
+.titulos{
+    font-size: 25px;
+    font-weight: 500;
 }
-.button:hover{
-    background-color: #f2eceb;
-    color: #6d8d3f;
+.sub-1c{
+    font-size: 18px;
+    font-weight: 700;
 }
-.seccion-megatlon{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+.sub-2c{
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-home{
+    font-size: 16px;
+    font-weight: 400;
+}
+.text-paragraph{
+    font-size: 14px;
+    font-weight: 400;
+}
+.other-text{
+    font-size: 12px;
+    font-weight: 400;
+}
+span{
+    color: #6F1228;
+}
+.gray{
+    color: #F2ECEB;
+}
+
+/*BOTONES ---------------------------------*/
+.button-s{
+    width: 150px;
+    height: 36px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.button-s a{
+    color: #F2ECEB;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.button-m{
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.button-m a{
+    color: #F2ECEB;
+    display: block;
+}
+.button-l{
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.button-l a{
+    color: #F2ECEB;
+    display: block;
+}
+
+.megatlon{
+    padding-bottom: 8px;
     flex-direction: column;
 }
-.seccion-megatlon h2, h3{
-    color: #f2eceb;
+.megatlon h2{
+    font-size: 19px;
 }
-.seccion-megatlon h2{
-    font-size: 18pt;
-}
-.seccion-megatlon h3{
-    font-size: 45pt;
+.megatlon h3{
     text-transform: uppercase;
+    font-size: 61px;
 }
-.fondo-megatlon{
-    width: 100%;
-    padding-top: 5px;
-    background: #6d8d3f url(/img/work-out.jpeg) no-repeat bottom center;
-    background-size: contain;
-    height: 215px;
-    border-radius: 12px;
-    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
-}
-.fondo-megatlon p{
-    color: #f2eceb;
+.bk-megatlon-1 p{
+    font-size: 16px;
     text-align: left;
-    font-size: 12pt;
 }
-.membresia{
-    margin: 0px 5px 0px 5px;
+.bk-megatlon-1{
+    background-color: #6D8D3F;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
 }
-/*estilo del form*/
+.bk-megatlon-1 img{
+    display: block;
+    width: 195px;
+}
+.bk-megatlon-2{
+    background: #6d8d3f url(/img/work-out.jpeg);
+    height: 185px;
+    background-size: contain;
+}
+.scroll{
+    height: 50px;
+    background-image: url(/img/scroll.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#form-beneficio{
+    height: 400px;
+    justify-content: space-between;
+}
+
+/*estilo del form ----------------------*/
 .formulario-box{
     flex-direction: column;
     height: 300px;
 }
-input .form-campos{
+label{
     font-size: 16px;
     background-color: #f2eceb;
 }
@@ -135,7 +186,7 @@ input .form-campos{
     text-align: left;
     color: #1d1d1b;
 }
-.form-campos{
+.formulario-box input, select{
     width: 335px;
     padding: 7px 0px 7px 0px;
     border: none;
@@ -160,31 +211,11 @@ select::-ms-expand {
 option{
     text-align: left;
 }
-.beneficio{
-    width: 150px;
-    margin: 0 auto;
-}
-.button-submit{
-    font-size: 20px;
-    width: 340px;
-    background-color: #6d8d3f;
-    color: #f3edec;
-    border: none;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 8px 8px 8px 8px;
-    box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
-}
-.construccion{
-    margin-top: 250px;
-    flex-direction: column;
-    align-content: center;
-}
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
     position: relative;
+    flex-wrap: wrap;
 }
 .nav-icon{
     margin: 0;
@@ -218,10 +249,4 @@ option{
     position: absolute;
     right: 0;
     top: 0;
-}
-.autoplay2{
-    padding-bottom: 25px;
-}
-.autoplay3{
-    padding-bottom: 25px;
 }

@@ -17,7 +17,7 @@ function myFunction() {
       autoplaySpeed: 2500,
       speed: 1000,
       arrows: false,
-      dots: true,
+      dots: false,
       adaptiveHeight: true,
       customPaging: function(slider, i) {
         // this example would render "tabs" with titles
@@ -53,7 +53,7 @@ function myFunction() {
       autoplaySpeed: 2500,
       speed: 1500,
       arrows: false,
-      dots: true,
+      dots: false,
       adaptiveHeight: true,
       customPaging: function(slider, i) {
         // this example would render "tabs" with titles
