@@ -37,6 +37,10 @@ main{
 .f{
     display: flex;
 }
+.b{
+    display: block;
+}
+
 /*FONDOS --------------------------------*/
 .bk-gray{
     background-color: #F2EDEA;
@@ -45,7 +49,7 @@ main{
     background-color: #6F1228;
 } 
 .bk-presentacion{
-    height: 250px;
+    height: 290px;
     background-image: url(/img/joven-bebiendo.png);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -55,6 +59,17 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
+}
+.bk-megatlon-2{
+    background: #6d8d3f url(/img/work-out.jpeg);
+    height: 185px;
+    background-size: contain;
+}
+.bk-megatlon-1{
+    background-color: #6D8D3F;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
 }
 
 /*TEXTOS --------------------------------*/
@@ -87,6 +102,9 @@ span{
 }
 .gray{
     color: #F2ECEB;
+}
+.maroon{
+    color: #6F1228;
 }
 
 /*BOTONES ---------------------------------*/
@@ -130,6 +148,45 @@ span{
     display: block;
 }
 
+/* NAVBAR ------------------------------ */
+.topnav {
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+}
+.nav-icon{
+    margin: 0;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav #myLinks li::before {
+    content: '';
+    display: block;
+    max-width: 100%;
+    height: 1px;
+    background: #6d8d3f;
+    margin: 0 auto;
+}
+.topnav #myLinks ul{
+    max-width: 95%;
+    margin: 0 auto;
+}
+/* Style navigation menu links */
+.topnav a {
+    color: #1d1d1b;
+    padding: 14px 16px;
+    display: block;
+}
+/* Style the hamburger menu */
+.topnav a.icon {
+    color: #1d1d1b;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .megatlon{
     padding-bottom: 8px;
     flex-direction: column;
@@ -145,21 +202,11 @@ span{
     font-size: 16px;
     text-align: left;
 }
-.bk-megatlon-1{
-    background-color: #6D8D3F;
-    padding-left: 20px;
-    padding-right: 20px;
-    align-items: center;
-}
 .bk-megatlon-1 img{
     display: block;
     width: 195px;
 }
-.bk-megatlon-2{
-    background: #6d8d3f url(/img/work-out.jpeg);
-    height: 185px;
-    background-size: contain;
-}
+
 .scroll{
     height: 50px;
     background-image: url(/img/scroll.gif);
@@ -170,12 +217,13 @@ span{
 
 #form-beneficio{
     height: 400px;
-    justify-content: space-between;
+    padding: 20px 0px;
 }
-
 /*estilo del form ----------------------*/
 .formulario-box{
     flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
     height: 300px;
 }
 label{
@@ -211,42 +259,8 @@ select::-ms-expand {
 option{
     text-align: left;
 }
-/* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    position: relative;
-    flex-wrap: wrap;
-}
-.nav-icon{
-    margin: 0;
-}
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-    display: none;
-}
-.topnav #myLinks li::before {
-    content: '';
-    display: block;
-    max-width: 100%;
-    height: 1px;
-    background: #6d8d3f;
-    margin: 0 auto;
-}
-.topnav #myLinks ul{
-    max-width: 95%;
-    margin: 0 auto;
-}
-/* Style navigation menu links */
-.topnav a {
-    color: #1d1d1b;
-    padding: 14px 16px;
-    display: block;
-}
-/* Style the hamburger menu */
-.topnav a.icon {
-    color: #1d1d1b;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+
+
+#te-ofrecemos{
+height: 243px;
 }
