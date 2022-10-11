@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 *{
-    margin: 0 auto;
+    margin: 0 auto; /*Profe, usamos margin 0 auto para centrar solo horizontalmente (El primer valor para arriba y abajo, el segundo valor para izquierda y derecha.)*/
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -12,6 +12,7 @@
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
     background-repeat: no-repeat;
 }
@@ -63,9 +64,10 @@ main{
     padding: 20px 0px;
 }
 .bk-megatlon-2{
-    background: #6d8d3f url(/img/work-out.jpeg);
     height: 185px;
+    background: #6d8d3f url(/img/work-out.jpeg) no-repeat bottom center;
     background-size: contain;
+    margin: 0;
 }
 .bk-megatlon-1{
     background-color: #6D8D3F;
