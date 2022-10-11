@@ -13,8 +13,7 @@
 }
 body{
     margin: 0;
-    background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
-    background-repeat: no-repeat;
+    background-color: #f2edec;
 }
 header{
     position: fixed;
@@ -25,11 +24,14 @@ header{
     box-shadow : 0px 1px 7px rgba(0, 0, 0, 0.4);
 }
 nav{
-    display: flex;
     justify-content: space-between;
 }
 main{
-    margin-top: 50px;
+    margin-top: 60px;
+}
+.body-home{
+    background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
+    background-repeat: no-repeat;
 }
 .container{
     max-width: 375px;
@@ -40,8 +42,17 @@ main{
 .f{
     display: flex;
 }
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
 .b{
     display: block;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 
 /*FONDOS --------------------------------*/
@@ -84,10 +95,12 @@ main{
 .sub-1c{
     font-size: 18px;
     font-weight: 700;
+    text-align: left;
 }
 .sub-2c{
     font-size: 14px;
     font-weight: 700;
+    text-align: left;
 }
 .text-home{
     font-size: 16px;
@@ -96,10 +109,12 @@ main{
 .text-paragraph{
     font-size: 14px;
     font-weight: 400;
+    text-align: left;
 }
 .other-text{
     font-size: 12px;
     font-weight: 400;
+    text-align: left;
 }
 span{
     color: #6F1228;
@@ -227,11 +242,6 @@ span{
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-#form-beneficio{
-    height: 400px;
-    padding: 20px 0px;
-}
 /*estilo del form ----------------------*/
 .formulario-box{
     flex-direction: column;
@@ -241,7 +251,7 @@ span{
 }
 label{
     font-size: 16px;
-    background-color: #f2eceb;
+    background-color: #f2edec;
 }
 ::placeholder{
     text-align: left;
@@ -255,8 +265,6 @@ label{
     background-color: #f2eceb;
 }
 select{
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 16px;
     background-repeat: no-repeat;
     background-position: right center;
     -webkit-appearance: none;
@@ -272,8 +280,69 @@ select::-ms-expand {
 option{
     text-align: left;
 }
+#te-ofrecemos{
+    margin: 10px 0px 10px 0px;
+}
+.slide{
+    margin: 5px 0px;
+}
+/*Estilo para slider -----------------*/
+#slide-1a, #slide-1b{
+    height: 188px;
+    width: 340px;
+    border-radius: 12px;
+    padding: 88px 20px 10px 20px;
+    background-size: 340px 222px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#slide-1a{
+    background-image: url(/img/slider-1a.png);
+}
+#slide-1b{
+    background-image: url(/img/slider-1b.png);
+}
 
+#comunidad, #patrocinadores{
+    padding: 30px 0px;
+}
+footer{
+    text-transform: uppercase;
+    line-height: 25px;
+}
+footer img{
+    height: 35px;
+    margin: 5px 8px;
+}
 
-#te-ofrecemos{ 
-height: 243px;
+#help{
+    margin: 5px;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+}
+.center{
+    justify-content: center;
+}
+
+#inicio-productos h2{
+    margin-bottom: 20px;
+}
+/*DISEÑO CARDS -------------------------*/
+.card-2c{
+    width: 159px;
+    height: 221px;
+    margin: 10px 5.5px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.card-2c img{
+    border-radius: 15px;
+    z-index: 9;
+    width: 150px;
+}
+.card-2c-text{
+    padding: 12px;
 }
