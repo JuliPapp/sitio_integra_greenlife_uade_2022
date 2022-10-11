@@ -6,6 +6,24 @@ function myFunction() {
     } else {
       x.style.display = "block";
     }
+    var x = document.getElementById("logo-gl-nav");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+    var x = document.getElementById("user-nav");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+    var x = document.getElementById("relleno-para-nav");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
   }
 
 //slider1
