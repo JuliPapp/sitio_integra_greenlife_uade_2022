@@ -33,6 +33,10 @@ main{
     background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
     background-repeat: no-repeat;
 }
+.construccion{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
 .container{
     max-width: 375px;
 }
