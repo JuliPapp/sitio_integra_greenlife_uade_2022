@@ -80,7 +80,7 @@ main{
 }
 .bk-megatlon-2{
     height: 185px;
-    background: #6d8d3f url(/img/work-out.jpeg) no-repeat bottom center;
+    background: #6d8d3f url(../img/work-out.jpeg) no-repeat bottom center;
     background-size: contain;
     margin: 0;
 }
