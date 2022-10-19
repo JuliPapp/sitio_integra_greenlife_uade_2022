@@ -54,17 +54,17 @@
                 <p class="text-home">O también podes elegir obtener un <span class="text-home">25% de descuento</span> en tu primera compra.</p>
                 <div class="scroll"></div>
                 <h3 class="text-home">Dejanos tus datos para enviarte el regalo:</h3>
-                <form class="formulario-box f">
-                    <label><input type="name" name="name" placeholder="Nombre:"></label>
-                    <label><input name="date" type="date"></label>
-                    <label><input type="email" name="email" placeholder="Mail:"></label>
+                <form action="gracias.php" method="get" class="formulario-box f">
+                    <input name="nombre" type="name" placeholder="Nombre:">
+                    <input name="dia" type="date">
+                    <input name="email" type="email" placeholder="Mail:">
                     <select class="b" name="promo" id="promo">
                         <option value="" selected="selected">Elegí tu beneficio:</option>
                         <option value="mes">Mes gratis en Megatlon</option>
                         <option value="25">Oferta del 25%</option>
                     </select>
                     <div class="button-l f">
-                        <a href="proximamente.html" type="submit">Quiero mi beneficio</a>
+                        <input href="proximamente.html" type="submit" value="Quiero mi beneficio">
                     </div>              
                 </form>
         </section>
