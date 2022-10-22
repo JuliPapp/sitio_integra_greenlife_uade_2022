@@ -79,3 +79,16 @@ function myFunction() {
       },
     });
   });
+  boton1.onclick = () => {
+    let numero = Number(mostrador.value.trim(" "));
+    numero = !isNaN( numero ) ? numero - 1 : 1;
+    mostrador.value = numero;
+}
+
+
+  boton2.onclick = () => {
+    let numero = Number(mostrador.value.trim(" "));
+    numero = !isNaN( numero ) ? numero + 1 : 1;
+  
+    mostrador.value = numero;
+  }
