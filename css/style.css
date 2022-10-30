@@ -25,6 +25,8 @@ header{
 }
 nav{
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 main{
     margin-top: 60px;
@@ -33,16 +35,14 @@ main{
     background: linear-gradient(136deg, #F2ECEB 0.46%, #FDDEAC 89.24%);
     background-repeat: no-repeat;
 }
-.construccion{
-    margin-top: 100px;
-    margin-bottom: 25px;
-}
 .container{
     max-width: 375px;
 }
 .c-container{
     max-width: 340px;
 }
+
+
 .f{
     display: flex;
 }
@@ -58,7 +58,11 @@ main{
 .wrap{
     flex-wrap: wrap;
 }
-
+/*SITIO EN CONSTRUCCIÓN ---------------------------*/
+.construccion{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
 /*FONDOS --------------------------------*/
 .bk-gray{
     background-color: #F2EDEA;
@@ -123,56 +127,12 @@ main{
 span{
     color: #6F1228;
 }
+/*COLORES ---------------------------------*/
 .gray{
     color: #F2ECEB;
 }
 .maroon{
     color: #6F1228;
-}
-
-/*BOTONES ---------------------------------*/
-.button-s{
-    width: 150px;
-    height: 36px;
-    border-radius: 100px;
-    background: #6D8D3F;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-}
-.button-s a{
-    color: #F2ECEB;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-.button-m{
-    justify-content: center;
-    align-items: center;
-    width: 230px;
-    height: 50px;
-    border-radius: 100px;
-    background: #6D8D3F;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-}
-.button-m a{
-    color: #F2ECEB;
-    display: block;
-}
-.button-l{
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 50px;
-    border-radius: 100px;
-    background: #6D8D3F;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-}
-.button-l a{
-    color: #F2ECEB;
-    display: block;
-}
-.margen-boton{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /* NAVBAR ------------------------------ */
@@ -190,7 +150,7 @@ span{
 #logo-gl-nav{
     display: inline;
 }
-#user-nav, #relleno-para-nav{
+#user-nav, #relleno-nav, #cart-nav{
     /*padding-left: 0;*/
     margin: 0;
 }
@@ -251,6 +211,9 @@ span{
     background-repeat: no-repeat;
 }
 /*estilo del form ----------------------*/
+input{
+    border: none;
+}
 .formulario-box{
     flex-direction: column;
     justify-content: space-around;
@@ -265,7 +228,7 @@ label{
     text-align: left;
     color: #1d1d1b;
 }
-.formulario-box input, select{
+.formulario-item{
     width: 335px;
     padding: 7px 0px 7px 0px;
     border: none;
@@ -341,6 +304,51 @@ footer img{
 #medios-de-pago{
     margin-top: 20px;
 }
+/*BOTONES ---------------------------------*/
+.button-s{
+    width: 150px;
+    height: 36px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.button-s a{
+    color: #F2ECEB;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.button-m{
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.button-m a{
+    color: #F2ECEB;
+    display: block;
+}
+.button-l{
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 100px;
+    background: #6D8D3F;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.button-l a{
+    color: #F2ECEB;
+    display: block;
+}
+.margen-boton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /*DISEÑO CARDS -------------------------*/
 .card-2c{
     width: 159px;
@@ -351,8 +359,10 @@ footer img{
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
 }
 .card-2c img{
+    padding: 10px;
     border-radius: 15px;
     width: 150px;
+    margin-bottom: 15px;
 }
 .card-2c-text{
     padding: 5px 12px 5px 12px;
