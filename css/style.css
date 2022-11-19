@@ -392,7 +392,10 @@ footer img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-
+.profesional{
+    position: relative;
+    z-index: 0;
+}
 #user-1{
     background-image: url(../img/);
 }
