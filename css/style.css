@@ -150,8 +150,7 @@ span{
 #logo-gl-nav{
     display: inline;
 }
-#user-nav, #relleno-nav, #cart-nav{
-    /*padding-left: 0;*/
+#user-nav, #relleno-menu, #cart-nav{
     margin: 0;
 }
 .topnav #myLinks li::before {
@@ -179,8 +178,8 @@ span{
     top: 0;
 }
 #relleno-para-nav{
-    width: 52px;
-    height: 52px;
+    width: 55px;
+    height: 57.5px;
 }
 
 .megatlon{
