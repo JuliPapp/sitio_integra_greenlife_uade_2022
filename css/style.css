@@ -28,6 +28,9 @@ nav{
     align-content: center;
     align-items: center;
 }
+nav img{
+    height: 20px;
+}
 main{
     margin-top: 60px;
 }
@@ -388,4 +391,23 @@ footer img{
     width: 340px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+}
+
+#user-1{
+    background-image: url(../img/);
+}
+#user-2{
+    background-image: url(../img/);
+}
+#user-3{
+    background-image: url(../img/);
+}
+#user-4{
+    background-image: url(../img/);
+}
+#user-5{
+    background-image: url(../img/);
+}
+#user-6{
+    background-image: url(../img/);
 }
