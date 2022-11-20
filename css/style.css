@@ -275,22 +275,26 @@ input[type=number] { -moz-appearance:textfield; }
 /*form login -------------------*/
 #form-login{
     position: relative;
-    border: 1px solid red;
     margin-top: 50px;
 }
+#form-login div{
+    margin: 0;
+}
 #form-login .formulario-item{
+    margin-top: 0;
+    margin-bottom: 10px;
     background-color: white;
 }
 #form-login ::placeholder, label{
     color:#1d1d1b;
 }
-#recordar{
+#recordarme-box{
     position: absolute;
-    top: 55%;
-    border: 1px solid red;
+    top: 50%;
+    left: 0;
 }
-#redordar label{
-    margin-left: 100px;
+#form-login label{
+    margin: 0;
 }
 /*Estilo para slider -----------------*/
 #slide-1a, #slide-1b{
