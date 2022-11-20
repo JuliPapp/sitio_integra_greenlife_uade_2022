@@ -37,12 +37,18 @@
         <section>
             <h3>Registrarse</h3>
             <form action="gracias.html" method="get">
-                <input name="nombre-completo" type="full name" placeholder="Nombre completo" required>
-                <input name="dia" type="date" required>
-                <input name="numero-de-telefono" type="tel" placeholder="Teléfono">
-                <input name="email" type="email" placeholder="Mail:" required>
-                <input name="contrasenia" type="password" placeholder="Contraseña" required>
-                <input name="Confirmar-contrasenia" type="password" placeholder="Confirmar contraseña" required>
+                <label for="nombre">Nombre completo:</label>
+                <input name="nombre-completo" type="full name" id="nombre" required>
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input name="dia" type="date" id="nacimiento" required>
+                <label for="telefono">Teléfono:</label>
+                <input name="numero-de-telefono" type="tel" id="telefono">
+                <label for="telefono">Teléfono:</label>
+                <input name="email" type="email" id="telefono" required>
+                <label for="contrasenia">Contraseña</label>
+                <input name="contrasenia" type="password" id="contrasenia" required>
+                <label for="confirmar">Confirmar contraseña</label>
+                <input name="confirmar-contrasenia" type="password" id="confirmar" required>
                 <p>*Datos obligatorios</p>
                 <div>
                     <p>Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra<strong>política de privacidad.</strong></p>
