@@ -240,6 +240,7 @@ label{
     border: none;
     text-align: start;
     background-color: #f2eceb;
+
 }
 select{
     background-repeat: no-repeat;
@@ -270,6 +271,17 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=number] { -moz-appearance:textfield; }
+
+/*form login -------------------*/
+#form-login input{
+    background-color: #ffffff;
+}
+#form-login label{
+    background-color: transparent;
+}
+#form-login ::placeholder, label{
+    color:#1d1d1b;
+}
 
 /*Estilo para slider -----------------*/
 #slide-1a, #slide-1b{
@@ -522,4 +534,8 @@ justify-content: space-around;
 }
 #add-stock a{
     color: #F2ECEB;
+}
+#medios-de-pago{
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
