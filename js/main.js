@@ -24,6 +24,18 @@ function myFunction() {
     } else {
       x.style.display = "none";
     }
+    var x = document.getElementById("logo-gl-cart");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+    var x = document.getElementById("cart-nav");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
   }
 
 //slider1
