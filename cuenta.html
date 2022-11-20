@@ -40,14 +40,17 @@
         <form class="formulario-box f column" action="gracias.html" method="get">
             <input class="formulario-item" name="usuario" type="username" placeholder="Nombre de usuario o email" required>
             <input class="formulario-item" name="contrasenia" type="password" placeholder="Contraseña" required>
-            <div class="f">
+
+            <div class="f" id="recordar">
             <input name="recordar" type="checkbox" value="Recordarme" id="Recordarme">
-            <label for="recordarme">Recordarme</label>
+            <label for="recordarme" class="text-paragraph">Recordarme</label>
             </div>
             <input class="button-l text-l gray" href="proximamente.html" type="submit" value="Acceder">
         </form>
-        <a href="registro.html"><p>¿No tienes usuario?</p></a>
-        <a href="proximamente.html"><p>¿Olvidaste la contraseña?</p></a>
+        <div>
+            <a href="registro.html"><p>¿No tienes usuario?</p></a>
+            <a href="proximamente.html"><p>¿Olvidaste la contraseña?</p></a>    
+        </div>
     </section>
 </main>
     <footer class="bk-maroon">
