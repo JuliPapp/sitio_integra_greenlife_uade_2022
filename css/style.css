@@ -273,16 +273,24 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] { -moz-appearance:textfield; }
 
 /*form login -------------------*/
-#form-login input{
-    background-color: #ffffff;
+#form-login{
+    position: relative;
+    border: 1px solid red;
+    margin-top: 50px;
 }
-#form-login label{
-    background-color: transparent;
+#form-login .formulario-item{
+    background-color: white;
 }
 #form-login ::placeholder, label{
     color:#1d1d1b;
 }
-
+#recordar{
+    position: absolute;
+    top: 55%;
+}
+#redordar label{
+    margin-left: 100px;
+}
 /*Estilo para slider -----------------*/
 #slide-1a, #slide-1b{
     height: 188px;
@@ -387,7 +395,6 @@ footer img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 /*DISEÑO CARDS -------------------------*/
 .card-2c{
     width: 159px;
