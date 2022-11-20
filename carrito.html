@@ -11,13 +11,18 @@
     <title>Carrito</title>
 </head>
 
-<body class="body-home">
+<body class="bk-gray">
+    <!--NAV CON CARRITO-->
     <header class="bk-gray">
-            <nav class="topnav container f">
+            <nav class="topnav container">
+                <div class="f">
                 <div id="relleno-menu"></div>
-                <a href="index.html" class="nav-icon b" id="logo-gl-nav"><img src="img/greenlife.svg" alt="logo GREENLIFE" height="20px"></a>
-                <a href="carrito.html"><img src="img/logo-carrito.svg" alt="logo del carrito"></a>
-                <a class="b" id="user-nav" href="proximamente.html"><img src="img/icono-usuario.svg" alt="icono-usuario"></a>
+                <a href="index.html" class="nav-icon b" id="logo-gl-cart"><img src="img/greenlife.svg" alt="logo GREENLIFE"></a>
+                <div class="f">
+                    <a href="carrito.html" class="b" id="cart-nav"><img src="img/logo-carrito.svg" alt="logo del carrito"></a>
+                    <a class="b" id="user-nav" href="proximamente.html"><img src="img/icono-usuario.svg" alt="icono-usuario"></a>
+                </div>
+                </div>
                 <div id="myLinks">
                     <ul>
                         <li><a href="index.html"><img src="img/greenlife.svg" alt="logo GREENLIFE" height="20px"></a></li>
@@ -37,46 +42,65 @@
     </header>
         <main>
             <section>
-                <h2>Mi carrito</h2>
-                <div>
+                <h2 class="titulos maroon">Mi carrito</h2>
+                <div class="bk-maroon">
+                    <div class="c-container f" id="item-added">                
                     <img src="img/agregado-carrito.png" alt="producto agregado al carrito">
-                    <p>“Aceite de Manzanilla” se ha añadido a tu carrito</p>
+                    <p class="gray text-paragraph">“Aceite de Manzanilla” se ha añadido a tu carrito.</p>
+                    </div>
+                
                 </div>
-                <div>
-                    <img src="img/producto-anadido.jpg" alt="aceite de manzanilla añadido">
-                    <img src="img/cruz-compra.svg" alt="cancelar el producto">
+                <div id="info-carrito" class="c-container">
+                    <img id="producto-img" src="img/producto-anadido.jpg" alt="aceite de manzanilla añadido">
+                    <img id="cerrar" src="img/cruz-compra.svg" alt="cancelar el producto">
                 </div>
-                <div class=”line”></div>         
-                <p>Producto:</p>
-                <p>Aceite de Manzanilla x 120 ml.</p>
-                <div class=”line”></div>         
-                <p>Precio:</p>
-                <p>$3199</p>
-                <div class=”line”></div>         
-                <p>Cantidad:</p>
+                <div class="c-container">
+                <div class="line"></div>
+                <div class="f between">
+                <p class="sub-2c">Producto:</p>
+                <p class="text-paragraph">Aceite de Manzanilla x 120 ml.</p>
+                </div>
+                <div class="line"></div>
+                <div class="f between">
+                <p class="sub-2c">Precio:</p>
+                <p class="text-paragraph">$3199</p>
+                </div>
+                <div class="line"></div>
+                <div class="f between">      
+                <p class="sub-2c">Cantidad:</p>
+                <div id="add-stock" class="f">
+                <a class="b" id="resta">-</a>
+                <input class="b" type="number" id="mostrador" min="1" value="1">
+                <a class="b" id="suma">+</a>
+                </div>
+                </div>
+                <div class="line"></div>
+                <div class="f between">      
+                <p class="sub-2c">Subtotal:</p> 
+                <p class="sub-1c">$3199</p>
+                </div>
+                <div class="f between">
+                    <a href="tienda.html" class="margen-boton button-s gray text-s-m b">Calcular envío</a>
+                    <a href="tienda.html" class="margen-boton button-s gray text-s-m b">Seguir comprando</a>
+                </div>
+                <div class="line"></div>
 
-                <button id="resta">-</button>
-                <input type="number" id="mostrador" min="1" value="1">
-                <button id="suma">+</button>
+                <div class="f between">
+                    <h4 class="sub-2c b">Envío:</h4>
+                    <div>
+                        <a href="proximamente.html" class="b other-text right">Introduce tu dirección para ver</a>
+                        <a href="proximamente.html" class="b other-text right">los costos de envío.</a>
+                    </div>
+                </div>
+                <div class="line"></div>
 
-                <div class=”line”></div>
-                <p>Subtotal:</p> 
-                <p>$3199</p>
-                <a href="tienda.html">Seguir comprando</a>
-                <a href="tienda.html">Aplicar cupón</a>
-                <div class=”line”></div>
-                <div>
-                    <h4>Envío:</h4>
-                    <p>Introduce tu dirección para ver las opciones de envío.</p>
-                    <p>Calcular envío</p>
+                <div class="f between">
+                    <p class="sub-1c">Total:</p>
+                    <p class="sub-1c">$3199</p>
                 </div>
-                <div class=”line”></div>
-                <div>
-                    <p>Total:</p>
-                    <p>$3199</p>
+                <div class="line"></div>
+                <a href="proximamente.html" class="margen-boton button-l gray b text-l">Finalizar compra</a>
                 </div>
-                <div class=”line”></div>
-                <a href="proximamente.html">Finalizar compra</a>
             </section>
         </main>
         <footer class="bk-maroon">

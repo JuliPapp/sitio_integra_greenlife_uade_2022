@@ -12,13 +12,13 @@ function myFunction() {
     } else {
       x.style.display = "none";
     }
-    var x = document.getElementById("user-nav");
+    var x = document.getElementById("relleno-menu");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
       x.style.display = "none";
     }
-    var x = document.getElementById("relleno-para-nav");
+    var x = document.getElementById("user-nav");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
