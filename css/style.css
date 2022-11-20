@@ -275,9 +275,11 @@ option{
 #slide-1b{
     background-image: url(../img/slider-1b.png);
 }
-
+#comunidad{
+    height: 235px;
+}
 #comunidad, #patrocinadores{
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 footer{
     margin-top: 20px;
@@ -308,12 +310,11 @@ footer img{
 }
 /*BOTONES ---------------------------------*/
 .button-s{
-    width: 150px;
-    height: 36px;
+    width: 165px;
+    height: 50px;
     border-radius: 100px;
     background: #6D8D3F;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-    font-weight: 500;
 }
 .button-s a{
     color: #F2ECEB;
@@ -325,7 +326,7 @@ footer img{
 .button-m{
     justify-content: center;
     align-items: center;
-    width: 230px;
+    width: 184px;
     height: 50px;
     border-radius: 100px;
     background: #6D8D3F;
@@ -334,11 +335,12 @@ footer img{
 .button-m a{
     color: #F2ECEB;
     display: block;
+    font-weight: 500;
 }
 .button-l{
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 340px;
     height: 50px;
     border-radius: 100px;
     background: #6D8D3F;
@@ -347,6 +349,7 @@ footer img{
 .button-l a{
     color: #F2ECEB;
     display: block;
+    font-weight: 500;
 }
 .margen-boton{
     margin-top: 20px;
@@ -371,6 +374,9 @@ footer img{
 .card-2c-text{
     padding: 5px 12px 5px 12px;
 }
+.card-1c-text{
+    padding: 7px 18px 9px 18px;
+}
 .white-cover-card-1c{
     width: 340px;
     height: 343px;
@@ -378,10 +384,12 @@ footer img{
     color: #f2edec;
 }
 .card-1c{
+    position: relative;
     width: 340px;
-    margin: 15px auto;
+    height: auto;
+    margin: 20px auto;
+    padding-bottom: 10px;
     overflow:hidden;
-    max-width:300px;
     position:relative;
     background-color: #ffffff;
     border-radius: 12px;
@@ -392,25 +400,45 @@ footer img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-.profesional{
-    position: relative;
-    z-index: 0;
+.card-profesional{
+    width: 340px;
+    height: 188px;
 }
-#user-1{
-    background-image: url(../img/);
+.img-profesional{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
-#user-2{
-    background-image: url(../img/);
+.data-profesional{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(252, 248, 234, 0.8);
+    height: 45%;
+    width: 100%;
 }
-#user-3{
-    background-image: url(../img/);
+#star img{
+    height: 15px;
+    width: auto;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
 }
-#user-4{
-    background-image: url(../img/);
+
+.autoplay2 img{
+    margin: 15px;
 }
-#user-5{
-    background-image: url(../img/);
+.globo{
+    width: 340px;
+    height: 115px;
+    padding: 10px;
+    margin-bottom: 7px;
+    background-image: url(../img/globo-dialogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#user-6{
-    background-image: url(../img/);
+.cuenta-tw{
+    margin: 0;
+    padding: 0;
 }
