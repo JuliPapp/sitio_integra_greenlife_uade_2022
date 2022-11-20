@@ -33,29 +33,29 @@
                 </a>
             </nav>
     </header>
-    <main>
+    <main class="c-container force">
+        <h2 class="maroon titulos t-registrarse">Registrarse</h2>
         <section>
-            <h3>Registrarse</h3>
-            <form action="gracias.html" method="get">
-                <label for="nombre">Nombre completo:</label>
-                <input name="nombre-completo" type="full name" id="nombre" required>
-                <label for="nacimiento">Fecha de nacimiento:</label>
-                <input name="dia" type="date" id="nacimiento" required>
-                <label for="telefono">Teléfono:</label>
-                <input name="numero-de-telefono" type="tel" id="telefono">
-                <label for="telefono">Teléfono:</label>
-                <input name="email" type="email" id="telefono" required>
-                <label for="contrasenia">Contraseña</label>
-                <input name="contrasenia" type="password" id="contrasenia" required>
-                <label for="confirmar">Confirmar contraseña</label>
-                <input name="confirmar-contrasenia" type="password" id="confirmar" required>
-                <p>*Datos obligatorios</p>
-                <div>
-                    <p>Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra<strong>política de privacidad.</strong></p>
+            <form id="form-singup" action="gracias.html" method="get" class="formulario-box f column">
+                <label for="nombre" class="text-paragraph">Nombre completo:</label>
+                <input class="formulario-item" name="nombre-completo" type="full name" id="nombre" required>
+                <label for="nacimiento" class="text-paragraph">Fecha de nacimiento:</label>
+                <input class="formulario-item" name="dia" type="date" id="nacimiento" required>
+                <label for="telefono" class="text-paragraph">Teléfono:</label>
+                <input class="formulario-item" name="numero-de-telefono" type="tel" id="telefono">
+                <label for="telefono" class="text-paragraph">Teléfono:</label>
+                <input class="formulario-item" name="email" type="email" id="telefono" required>
+                <label for="contrasenia" class="text-paragraph">Contraseña:</label>
+                <input class="formulario-item" name="contrasenia" type="password" id="contrasenia" required>
+                <label for="confirmar" class="text-paragraph">Confirmar contraseña:</label>
+                <input class="formulario-item" name="confirmar-contrasenia" type="password" id="confirmar" required>
+                
+                    <p class="other-text">Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra <strong class="other-text">política de privacidad.</strong></p>
+                    <div>
                     <input name="aceptar" type="checkbox" value="terminos-condiciones" id="terminos-condiciones" required>
                     <label for="terminos-condiciones">Acepto los términos y condiciones.</label>
-                    <input class="button-l gray" href="proximamente.html" type="submit" value="Quiero mi beneficio">
-                </div>
+                    </div>
+                    <input class="button-l gray" href="proximamente.html" type="submit" value="Registrarme">
             </form>
         </section>   
     </main>

@@ -95,7 +95,9 @@ main{
     padding-right: 20px;
     align-items: center;
 }
-
+.t-registrarse{
+    margin-bottom: 170px;
+}
 /*TEXTOS --------------------------------*/
 .titulos{
     font-size: 25px;
@@ -272,20 +274,32 @@ input[type=number]::-webkit-outer-spin-button {
 
 input[type=number] { -moz-appearance:textfield; }
 
-/*form login -------------------*/
-#form-login{
+/*form login y sing up-------------------*/
+#form-login, #form-singup{
     position: relative;
     margin-top: 50px;
 }
 #form-login div{
     margin: 0;
 }
+#form-singup{
+    margin: 0;
+    margin-top: 120px;
+}
 #form-login .formulario-item{
     margin-top: 0;
     margin-bottom: 10px;
     background-color: white;
 }
+#form-singup .formulario-item{
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: white;
+}
 #form-login ::placeholder, label{
+    color:#1d1d1b;
+}
+#form-singup ::placeholder, label{
     color:#1d1d1b;
 }
 #recordarme-box{
@@ -295,6 +309,12 @@ input[type=number] { -moz-appearance:textfield; }
 }
 #form-login label{
     margin: 0;
+}
+#form-singup label{
+    margin: 0;
+}
+#form-singup strong{
+    font-weight: 800;
 }
 /*Estilo para slider -----------------*/
 #slide-1a, #slide-1b{
@@ -319,6 +339,9 @@ input[type=number] { -moz-appearance:textfield; }
     padding: 20px 0px;
 }
 footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
     margin-top: 20px;
     text-transform: uppercase;
     line-height: 25px;
@@ -549,4 +572,14 @@ justify-content: space-around;
 #medios-de-pago{
     flex-wrap: wrap;
     justify-content: space-around;
+}
+#nacimiento{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.force{
+    height: 1000px;
+}
+#confirmar{
+    margin-bottom: 150px;
 }
