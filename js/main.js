@@ -81,5 +81,16 @@ function myFunction() {
   });
 
 
-
+  let numero = 0;
+  suma.onclick = () => {
+   numero++;
+   mostrador.value = numero;}
+  resta.onclick = () => {
+   numero--;
+   mostrador.value = numero;
+  }
+  reset.onclick = () => {
+      numero = 1;
+      mostrador.value = numero;
+  }
 

@@ -259,6 +259,14 @@ option{
 .slide{
     margin: 5px 0px;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
 /*Estilo para slider -----------------*/
 #slide-1a, #slide-1b{
     height: 188px;
