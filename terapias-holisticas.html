@@ -72,10 +72,14 @@
 <section>
     <h4>¡Dejanos ayudarte!</h4>
     <form action="gracias.html" method="get">
-        <input name="nombre-completo" type="full name" placeholder="Nombre completo:" required>
-        <input name="email" type="email" placeholder="Mail:" required>
-        <input name="numero-de-telefono" type="tel" placeholder="Teléfono:">
-        <textarea name="ayuda" placeholder="Buscando ayudad para:"></textarea>
+        <label for="nombre">Nombre completo:</label>
+        <input name="nombre-completo" type="full name" id="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input name="email" type="email" id="email" required>
+        <label for="telefono">Teléfono:</label>
+        <input name="numero-de-telefono" type="tel" id="telefono">
+        <label for="ayuda">Buscando ayuda para:</label>
+        <textarea name="ayuda" id="ayuda"></textarea>
         <textarea name="consulta" placeholder="Describe brevemente la situación"></textarea>
         <input type="submit" value="Enviar">
     </form>
