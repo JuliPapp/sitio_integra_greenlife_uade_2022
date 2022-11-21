@@ -61,19 +61,19 @@
     </article>
 </section>
 </section>
-<section class="c-container">
+<section class="c-container" id="dejanos-ayudarte">
     <h4 class="sub-1c">¡Dejanos ayudarte!</h4>
-    <form action="gracias.html" method="get">
-        <label for="nombre">Nombre completo:</label>
-        <input name="nombre-completo" type="full name" id="nombre" required>
-        <label for="email">Correo electrónico:</label>
-        <input name="email" type="email" id="email" required>
-        <label for="telefono">Teléfono:</label>
-        <input name="numero-de-telefono" type="tel" id="telefono">
-        <label for="ayuda">Buscando ayuda para:</label>
-        <textarea name="ayuda" id="ayuda"></textarea>
-        <textarea name="consulta" placeholder="Describe brevemente la situación"></textarea>
-        <input type="submit" value="Enviar">
+    <form action="gracias.html" method="get" class="f column">
+        <label class="text-paragraph" for="nombre">Nombre completo:</label>
+        <input class="formulario-item" name="nombre-completo" type="full name" id="nombre" required>
+        <label class="text-paragraph" for="email">Correo electrónico:</label>
+        <input class="formulario-item" name="email" type="email" id="email" required>
+        <label class="text-paragraph" for="telefono">Teléfono:</label>
+        <input class="formulario-item" name="numero-de-telefono" type="tel" id="telefono">
+        <label class="text-paragraph" for="ayuda">Buscando ayuda para:</label>
+        <textarea class="formulario-item" name="ayuda" id="ayuda"></textarea>
+        <textarea id="descripcion" class="formulario-item" name="consulta" placeholder="Describe brevemente la situación..."></textarea>
+        <input class="button-l text-l gray b margen-boton" type="submit" value="Enviar">
     </form>
 </section>
 </main>
