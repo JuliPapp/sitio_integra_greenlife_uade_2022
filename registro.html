@@ -33,10 +33,10 @@
                 </a>
             </nav>
     </header>
-    <main class="c-container force">
+    <main class="c-container">
         <h2 class="maroon titulos">Registrarse</h2>
         <section>
-            <form id="form-singup" action="gracias.html" method="get" class="formulario-box f column">
+            <form id="form-singup" action="gracias.html" method="get" class="f column">
                 <label for="nombre" class="text-paragraph">Nombre completo:</label>
                 <input class="formulario-item" name="nombre-completo" type="full name" id="nombre" required>
                 <label for="nacimiento" class="text-paragraph">Fecha de nacimiento:</label>
@@ -49,16 +49,22 @@
                 <input class="formulario-item" name="contrasenia" type="password" id="contrasenia" required>
                 <label for="confirmar" class="text-paragraph">Confirmar contraseña:</label>
                 <input class="formulario-item" name="confirmar-contrasenia" type="password" id="confirmar" required>
-
+            </form>
+        </section>
+        <section class="c-container" id="legal">
                 <p class="other-text">Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra <strong class="other-text">política de privacidad.</strong></p>
-                <div>
+        </section>
+        <section class="c-container">
+            <form action="" class="f column">
+                <div class="f">
                 <input name="aceptar" type="checkbox" value="terminos-condiciones" id="terminos-condiciones" required>
                 <label for="terminos-condiciones">Acepto los términos y condiciones.</label>
                 </div>
-                <input class="button-l gray" href="proximamente.html" type="submit" value="Registrarme">
+                <input class="button-l text-l gray margen-boton" href="proximamente.html" type="submit" value="Registrarme">
             </form>
         </section>   
     </main>
+
     <footer class="bk-maroon">
         <div class="container f column">
             <p class="gray text-paragraph">© 2022 / GREENLIFE</p>

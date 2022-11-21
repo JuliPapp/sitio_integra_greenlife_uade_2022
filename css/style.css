@@ -275,16 +275,12 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] { -moz-appearance:textfield; }
 
 /*form login y sing up-------------------*/
-#form-login, #form-singup{
+#form-login{
     position: relative;
     margin-top: 50px;
 }
 #form-login div{
     margin: 0;
-}
-#form-singup{
-    margin: 0;
-    margin-top: 120px;
 }
 #form-login .formulario-item{
     margin-top: 0;
@@ -311,9 +307,9 @@ input[type=number] { -moz-appearance:textfield; }
     margin: 0;
 }
 #form-singup label{
-    margin: 0;
+    margin: 5px 0px 10px 0px;
 }
-#form-singup strong{
+strong{
     font-weight: 800;
 }
 /*Estilo para slider -----------------*/
@@ -368,6 +364,28 @@ footer img{
     margin-top: 20px;
 }
 /*BOTONES ---------------------------------*/
+.cart-button{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 86px;
+    height: 20px;
+    background-color: #6F1228;
+    border-radius: 100px;
+}
+.cart-button p{
+    position: absolute;
+    color: #F2ECEB;
+    font-size: 10px;
+    bottom: 25%;
+    right: 15%;
+}
+.add-cart{
+position: absolute;
+height: 37px;
+bottom: -117%;
+right: -12%;
+}
 .button-s{
     width: 165px;
     height: 50px;
@@ -430,6 +448,7 @@ footer img{
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 .card-2c img{
     padding: 10px;
@@ -573,10 +592,38 @@ justify-content: space-around;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#nacimiento{
-    padding-top: 16px;
-    padding-bottom: 16px;
+#legal{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-#confirmar{
-    margin-bottom: 150px;
+input[type="checkbox" i] {
+width: 25px;
+height: 25px;
+margin-right: 7px;
+}
+.slider-nav img{
+    margin: 0;
+    padding: 0;
+    height: 72px;
+    width: 72px;
+    border-radius: 6px;
+}
+.slider-nav{
+    margin: 0;
+    margin-top: 15px;
+}
+#carrusel-producto{
+    position: relative;
+}
+.slider-for{
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 12px;
+}
+.slider-for img{
+    height: 221px;
+    width: auto;
+}
+.slick-prev:before, .slick-next:before {
+color: #6F1228;
 }

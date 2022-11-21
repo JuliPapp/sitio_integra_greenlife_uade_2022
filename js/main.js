@@ -80,6 +80,25 @@ function myFunction() {
     });
   });
 
+  //Slider4 producto individual
+
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    fade: true,
+    asNavFor: '.slider-nav'
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    asNavFor: '.slider-for',
+    dots: false,
+    centerMode: false,
+    infinite: false,
+    focusOnSelect: false,
+  });
+
 
   let numero = 0;
   suma.onclick = () => {
