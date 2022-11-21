@@ -1,4 +1,4 @@
-function myFunction() {
+function myFunction1() {
     var x = document.getElementById("yoga");
     if (x.style.display === "block") {
       x.style.display = "none";
