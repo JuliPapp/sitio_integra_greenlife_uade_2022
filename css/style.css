@@ -42,8 +42,6 @@ main{
 .c-container{
     max-width: 340px;
 }
-
-
 .f{
     display: flex;
 }
@@ -357,6 +355,9 @@ footer img{
 .center{
     justify-content: center;
 }
+.margin-l-0{
+    margin-left: 0;
+}
 #inicio-productos h2{
     margin-bottom: 20px;
 }
@@ -448,7 +449,6 @@ right: -12%;
 .margen-boton{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 0;
 }
 #add-cart-l{
     height: 29px;
@@ -457,6 +457,16 @@ right: -12%;
     top: 31px;
 }
 /*DISEÑO CARDS -------------------------*/
+.card-prof{
+    width: 160px;
+    height: 310px;
+    margin: 10px 5.5px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+}
 .card-2c{
     width: 159px;
     height: 221px;
@@ -702,4 +712,32 @@ color: #6F1228;
 }
 #dejanos-ayudarte input[type="submit" i] {
     background-color: #6D8D3F;
+}
+.ruta a{
+    margin: 0;
+    margin-top: 15px;
+}
+.circle-img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.circle-img img{
+    position: absolute;
+    left: -15px;
+}
+.txt-center{
+    text-align: center;
+}
+.img-prof{
+margin-left:-60px;
+border-radius: 12px;
+}
+.card-prof p{
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
