@@ -45,17 +45,11 @@
                 <input class="formulario-item" name="numero-de-telefono" type="tel" id="telefono">
                 <label for="mail" class="text-paragraph">Mail:</label>
                 <input class="formulario-item" name="email" type="email" id="mail" required>
-                <label for="contrasenia" class="text-paragraph">Contraseña:</label>
+                <label minlength="8" for="contrasenia" class="text-paragraph">Contraseña:</label>
                 <input class="formulario-item" name="contrasenia" type="password" id="contrasenia" required>
                 <label for="confirmar" class="text-paragraph">Confirmar contraseña:</label>
-                <input class="formulario-item" name="confirmar-contrasenia" type="password" id="confirmar" required>
-            </form>
-        </section>
-        <section class="c-container" id="legal">
-                <p class="other-text">Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra <strong class="other-text">política de privacidad.</strong></p>
-        </section>
-        <section class="c-container">
-            <form action="gracias.html" method="get" class="f column">
+                <input minlength="8" class="formulario-item" name="confirmar-contrasenia" type="password" id="confirmar" required>
+                <p class="other-text c-container" id="legal">Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra <strong class="other-text">política de privacidad.</strong></p>
                 <div class="f">
                 <input name="aceptar" type="checkbox" value="terminos-condiciones" id="terminos-condiciones" required>
                 <label for="terminos-condiciones">Acepto los términos y condiciones.</label>
