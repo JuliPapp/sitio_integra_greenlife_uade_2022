@@ -41,7 +41,7 @@
         <main class="c-container">
         <section>
             <article id="carrusel-producto">
-                    <div class="slider-for f center">
+                    <div class="slider-for f">
                     <div><img src="img/manzanilla-slider1-80.jpg" alt=""></div>
                     <div><img src="img/manzanilla-slider2-80.jpg" alt=""></div>
                     <div><img src="img/manzanilla-slider3-80.jpg" alt=""></div>
@@ -52,35 +52,33 @@
                     <div><img src="img/manzanilla-slider3-80.jpg" alt=""></div>
                   </div>
             </article>
-            <article>
+            <article class="c-container">
                 <div>
-                    <p>Aceites esenciales</p>
-                    <h6>Aceite Manzanilla x 120 ml.</h6>
-                    <h5>$3.199,00</h5>
-                    <p>Aceite de Manzanilla - Natural Life</p>
-                    <p>Efecto calmante y relajante. Ayuda a mejorar el estado de ánimo.</p>
+                    <p class="text-paragraph">Aceites esenciales</p>
+                    <h6 class="sub-1c">Aceite Manzanilla x 120 ml.</h6>
+                    <h5 class="sub-1c">$3.199,00</h5>
+                    <p class="text-paragraph b">Aceite de Manzanilla - Natural Life</p>
+                    <p class="text-paragraph b">Efecto calmante y relajante. Ayuda a mejorar el estado de ánimo.</p>
                 </div>
-                <div>
-                    <a href="carrito.html">Comprar</a>
-                    <a href="carrito.html"><img src="img/carrito.png" alt="carrito"></a>
+                <div class="f" id="botones">
+                    <a href="carrito.html" class="margen-boton button-m text-s-m gray b">Comprar</a>
+                    <a href="carrito.html" class="margen-boton button-cart-l text-s-m gray"><img class="b" id="add-cart-l" src="img/canasta.svg" alt="carrito"></a>
                 </div>
-                <div class=”line”></div>         
+                <div class="line"></div>         
             </article>
         </section>
-        <section>
-            <article>
-                <h2>Descripción</h2>
-                <h3>Información adicional</h3>
-                <p>Este aceite es hidratante, antioxidante, antiacneico, favorece la elasticidad y suavidad de la piel. Tambien fortalece pestañas y cabellos, disminuye estrías, disminuye efecto de rayos ultravioletas. Se puede utilizar como desmaquillante y es de rapida absorción.</p>
-                <p>Apto todo tipo de piel.</p>
-                <p>Envíos y retiros:</p>
-                <form action="gracias.html" method="get">
-                    <input name="tipo" type="radio" value="envio" id="envio">
-                    <label for="envio">Envíos por OCA a Argentina: te actualizamos sobre el estado de tu envío vía mail.</label>
-                    <input name="tipo" type="radio" value="retiro" id="retiro">
-                    <label for="retiro">Retiro por Palermo Hollywood, sólo con cita previa. Se coordina vía mail a info@greenlife.com.ar. Horario: Lunes a viernes de 10 a 18hs.</label>
-                    <input class="button-l gray" href="proximamente.html" type="submit" value="Realizar el pedido">
-                </form>
+        <section id="descripcion-prod">
+            <article class="c-container">
+                <h2 class="titulos maroon">Descripción</h2>
+                <h3 class="sub-1c">Información adicional</h3>
+                <p class="text-paragraph">Este aceite es hidratante, antioxidante, antiacneico, favorece la elasticidad y suavidad de la piel. Tambien fortalece pestañas y cabellos, disminuye estrías, disminuye efecto de rayos ultravioletas. Se puede utilizar como desmaquillante y es de rapida absorción.</p>
+                <p class="sub-2c">Apto todo tipo de piel.</p>
+                <p class="text-paragraph">Envíos y retiros:</p>
+                <section>
+                    <p class="text-paragraph"> - Envíos por OCA a Argentina: te actualizamos sobre el estado de tu envío vía mail.</p>
+                    <p class="text-paragraph"> - Retiro por Palermo Hollywood, sólo con cita previa. Se coordina vía mail a info@greenlife.com.ar. Horario: Lunes a viernes de 10 a 18hs.</p>
+                    <input class="button-l margen-boton text-l gray" href="proximamente.html" type="submit" value="Realizar el pedido">
+                </section>
             </article>
         </section>
         <section>
