@@ -96,7 +96,7 @@ function myFunction() {
     dots: false,
     centerMode: false,
     infinite: false,
-    focusOnSelect: false,
+    focusOnSelect: true,
   });
 
 
