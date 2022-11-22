@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
+    <link rel="icon" type="image/x-icon" href= "img/favicon.png">
+    <title>Finalizar compra</title>
+</head>
+
+    <body class="bk-gray">
+        <header class="bk-gray">
+                <nav class="topnav container">
+                    <div class="f">
+                    <div id="relleno-menu"></div>
+                    <a href="index.html" class="nav-icon b" id="logo-gl-cart"><img src="img/greenlife.svg" alt="logo GREENLIFE"></a>
+                    <div class="f">
+                        <a href="carrito.html" class="b" id="cart-nav"><img src="img/logo-carrito.svg" alt="logo del carrito"></a>
+                        <a class="b" id="user-nav" href="proximamente.html"><img src="img/icono-usuario.svg" alt="icono-usuario"></a>
+                    </div>
+                    </div>
+                    <div id="myLinks">
+                        <ul>
+                            <li><a href="tienda.html">Tienda</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="proximamente.html">Comunidad</a></li>
+                            <li><a href="registro.html">Registrarse</a></li>
+                            <li><a href="cuenta.html">Ingreso</a></li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        <img src="img/menu-hamburguesa.svg" alt="Menú hamburguesa">
+                    </a>
+                </nav>
+        </header>
+        <main>
+            <section class="c-container">
+                <h2 class="titulos maroon">Finalizar compra</h2>
+                <div class="f ruta c-container">
+                    <a class="b" href="index.html">Inicio / </a>
+                    <a class="b" href="carrito.html"> Carrito / </a>
+                    <a class="b sub-2c" href="finalizar-compra.html"> Finalizar compra</a>
+                </div>
+                <article id="finalizar-compra">
+                    <div>
+                        <h3 class="sub-1c txt-center margen-boton">Tu pedido</h3>
+                        <img class="cerrar" src="img/cruz-compra.svg" alt="cancelar el pedido">
+                    </div>
+                    <div class="f">
+                        <div id="compra-img" class="f nav-icon">
+                            <img src="img/aceite-manzanilla-100.jpg" alt="aceite de manzanilla">
+                        </div>
+                        <div class="f column">
+                        <p class="text-paragraph">Aceite de Manzanilla x 120ml</p>
+                        <select name="select">
+                            <option value="value1" selected>1 u.</option>
+                            <option value="value2">2 u.</option>
+                            <option value="value3">3 u.</option>
+                            <option value="value3">4 u.</option>
+                            <option value="value3">5 u.</option>
+                            <option value="value3">6 u.</option>
+                            <option value="value3">7 u.</option>
+                            <option value="value3">8 u.</option>
+                            <option value="value3">9 u.</option>
+                            <option value="value3">10 u.</option>
+                          </select>
+                        </div>
+                        <h5 class="sub-2c nav-icon">$3199</h5>
+                    </div>
+                    <div class="line"></div>
+                    <div class="f between">
+                        <p class="sub-2c nav-icon">Subtotal</p>
+                        <h5 class="sub-2c nav-icon">$3199</h5>
+                    </div>
+                    <div class="line"></div>
+                </article>
+                <article id="direc-entrega" class="f column b">
+                    <h3 class="sub-2c">Dirección de entrega:</h3>
+                    <form action="gracias.html" method="get">
+
+                    <div class="f">
+                        <input name="direccion" type="radio" id="direccion1" checked>
+                        <div>
+                            <label class="text-paragraph b" for="direccion1">Avenida 25 de Mayo 981</label>
+                            <p class="other-text">CP: 1406 - Lanús, Buenos Aires</p>            
+                        </div>
+                    </div>
+                    <div class="f">
+                        <input name="direccion" type="radio" id="direccion2">
+                        <div>
+                            <label class="text-paragraph b" for="direccion2">Santa Juana de Arco 3960</label>
+                            <p class="other-text">CP: 1702 - Ciudadela, Buenos Aires.</p>            
+                        </div>
+                    </div>
+                    <div class="f">
+                        <input name="direccion" type="radio" id="direccion3">
+                        <div>
+                            <label class="text-paragraph b" for="direccion3">Avenida Boyacá 493</label>
+                            <p class="other-text">CP: 1406 - Flores, Capital Federal</p>            
+                        </div>
+                    </div>
+                    </form>
+                    <section>
+                        <div class="line"></div>
+                        <section class="f center">
+                            <article class="f center">
+                                <a class="sub-2c b" href="proximamente.html">Ver todas</a>
+                            </article>
+                            <div></div>
+                            <article class="f center">
+                                <a class="sub-2c b" href="proximamente.html">Editar direcciones</a>
+                            </article>
+                        </section>
+                    </section>
+                </article>
+                <article id="metodo-entrega">
+                    <h3 class="sub-1c txt-center margen-boton">Método de entrega</h3>
+                    <form class="f column c-container" action="gracias.html" method="get">
+                        
+                        <div class="f between">
+                            <div class="f">
+                            <input name="entrega" type="radio" id="entrega1" checked>
+                            <label class="text-paragraph" for="entrega1">Envío rápido a domicilio</label>
+                            </div>
+                            <p class="text-paragraph">$889</p>
+                        </div>
+
+                        <div class="line"></div>
+
+                        <div class="f between">
+                            <div class="f">
+                            <input name="entrega" type="radio" id="entrega2">
+                                <label class="text-paragraph" for="entrega2">Retiro en correo</label>
+                            </div>
+                                <p class="text-paragraph">$483</p>
+                        </div>
+
+                        <div class="line"></div>
+                        <div class="f between">
+                            <div class="f">
+                        <input name="entrega" type="radio" id="entrega3">
+                            <label class="text-paragraph" for="entrega3">Retiro en puntos de entrega</label>
+                        </div>
+                            <p class="text-paragraph">$0</p>
+                        </div>
+                    </form>
+                    <div class="line"></div>
+                    <div class="f between">
+                        <h3 class="nav-icon sub-2c">Total</h3>
+                        <p class="sub-1c">$3199</p>
+                    </div>
+                </article>
+                <article>
+                    <h3 class="sub-1c txt-center margen-boton">Elegí tu forma de pago</h3>
+                    <form action="gracias.html" method="get" >
+                    <div id="forma-pago" class="f column c-container margen-boton">
+                        <div>
+                        <input name="pagos" type="radio" id="pago1" checked>
+                        <label class="text-paragraph" for="pago1">Mercado Pago</label>
+                        </div>
+                        <div class="line"></div>
+                        <div>
+                        <input name="pagos" type="radio" id="pago2">
+                        <label class="text-paragraph" for="pago2">Visa Débito **** 4644</label>
+                        </div>
+                        <div class="line"></div>
+                        <div>
+                        <input name="pagos" type="radio" id="pago3">
+                        <label class="text-paragraph" for="pago3">Banco Santander **** 6507</label>
+                        </div>
+                    </div>
+                        <p class="other-text margen-boton">Tus datos personales sólo se utilizarán para procesar tu pedido y mejorar tu experiencia en esta web.</p>
+                        <div class="f">
+                            <input name="acuerdo" type="checkbox" id="terminos" required>
+                            <label class="other-text" for="terminos">He leído y estoy de acuerdo con los términos y condiciones de la web.</label>
+                        </div>
+                        <input class="button-l text-l gray b margen-boton" href="proximamente.html" type="submit" value="Realizar el pedido">
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer class="bk-maroon">
+            <div class="container f column">
+                <p class="gray text-paragraph">© 2022 / GREENLIFE</p>
+                    <ul class="f">
+                        <li><a href="proximamente.html">
+                            <img src="img/social-media-logo-01.svg"alt="logo Facebook">
+                        </a></li>
+                        <li><a href="proximamente.html">
+                            <img src="img/social-media-logo-02.svg"alt="logo Instagram">
+                        </a></li>
+                        <li><a href="proximamente.html">
+                            <img src="img/social-media-logo-03.svg"alt="logo Email">
+                        </a></li>
+                        <li><a href="proximamente.html">
+                            <img src="img/social-media-logo-04.svg"alt="logo Youtube">
+                        </a></li>
+                    </ul>
+                <nav>
+                    <ul class="f column">
+                        <li><a class="gray text-paragraph b" href="proximamente.html">Cómo comprar</a></li>
+                        <li><a class="gray text-paragraph b" href="proximamente.html">Términos y condiciones</a></li>
+                        <li><a class="gray text-paragraph b" href="proximamente.html">Suscribite al Newsletter</a></li>
+                        <li><a class="gray text-paragraph b" href="proximamente.html">Política de privacidad</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    <a class="container b" id="help" href="proximamente.html"><img src="img/boton-ayuda.svg" alt="ayuda"></a>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -367,8 +367,8 @@ footer img{
 /*BOTONES ---------------------------------*/
 .cart-button{
     position: absolute;
-    bottom: 5%;
-    right: 5%;
+    bottom: 3%;
+    right: 4%;
     width: 86px;
     height: 20px;
     background-color: #6F1228;
@@ -578,7 +578,7 @@ right: -12%;
     margin-bottom: 20px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
 }
-#cerrar{
+.cerrar{
     position: absolute;
     top: 25%;
     right: 8%;
@@ -740,4 +740,76 @@ border-radius: 12px;
 .card-prof p{
     margin-top: 7px;
     margin-bottom: 7px;
+}
+#compra-img{
+    height: 37px;
+    width: 37px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+}
+#finalizar-compra img{
+    height: 37px;
+    width: auto;
+    overflow: hidden;
+}
+#finalizar-compra select{
+    background-size: 30%;
+    border: none;
+    margin: 0;
+    width: 50px;
+    border-radius: 3px;
+}
+#finalizar-compra .cerrar{
+    height: 18px;
+    top: 120px;
+    right: 25px;
+}
+#direc-entrega, #forma-pago{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #6d8d3f77;
+    position: relative;
+}
+#direc-entrega label, #forma-pago label{
+background-color: transparent;
+}
+
+#direc-entrega p{
+    color: #00000082;
+}
+#direc-entrega div, #metodo-entrega div, #forma-pago div{
+    margin: 5px 7px;
+    align-items: center;
+}
+#direc-entrega input, #metodo-entrega input, #forma-pago input{
+    margin: 0;
+}
+#direc-entrega section div{
+    margin: 0 auto;
+    width: 320px;
+}
+#direc-entrega section a{
+    height: 30px;
+    padding-top: 9px;
+    font-size: 12px;
+}
+#direc-entrega section article{
+    width: 50%;
+}
+#direc-entrega section section div{
+    height: 30px;
+    width: 1px;
+    background-color:#676565;
+    position: absolute;
+    left: 50%;
+}
+#metodo-entrega label{
+    margin-left: 15px;
+}
+#forma-pago{
+    align-items: flex-start;
+}
+#finalizar-compra div .column{
+    margin-left: 10px;
 }
